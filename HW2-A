@@ -1,0 +1,7 @@
+def say_hello(booker):
+    name = input(booker)
+    print(f"Hello, {name}!")
+
+
+if __name__ == "__main__":
+    say_hello("What is your name? ")
