@@ -1,0 +1,8 @@
+# 讀取同一行輸入的兩個整數（分鐘 m 和秒數 s）
+m, s = map(int, input().split())
+
+# 計算總秒數：1 分鐘 = 60 秒
+total_seconds = 60 * m + s
+
+# 輸出總秒數
+print(total_seconds)

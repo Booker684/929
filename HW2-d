@@ -1,0 +1,9 @@
+# 讀取同一行輸入的兩個整數（寬度 w 和高度 h）
+w, h = map(int, input().split())
+
+# 計算面積 (area) 與周長 (perimeter)
+area = w * h
+perimeter = 2 * (w + h)
+
+# 輸出結果，兩個數字中間會自動以空格隔開
+print(area, perimeter)
